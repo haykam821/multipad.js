@@ -4,14 +4,14 @@
   "short_name": "Multipad",
   "version": "1.0",
   "minimum_chrome_version": "22.0",
-  "default_locale": "en",
+  "default_locale_will_readd_later": "en",
   "description": "A manager for multiplayer controllers using the multipad.js system.",
   "permissions": [
-      "*"
+      "*://*/*"
   ],
   "content_scripts": [{
       "run_at" :"document_end",
-      "matches": ["*"],
+      "matches": ["*://*/*"],
       "js": ["script.js"]
   }],
   "browser_action": {
