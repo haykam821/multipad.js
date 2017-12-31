@@ -1,0 +1,43 @@
+{
+  "joyconLeft": {
+    "buttons": [
+      "down",
+      "right",
+      "left",
+      "up",
+      "triggerLeft",
+      "triggerRight",
+      null,
+      null,
+      "meta",
+      null,
+      "analog",
+      null,
+      null,
+      "capture",
+      null,
+      null
+    ]
+  },
+  "joyconRight": [
+    "down",
+    "right",
+    "left",
+    "up",
+    "triggerLeft",
+    "triggerRight",
+    null,
+    null,
+    null,
+    "meta",
+    null,
+    "analog",
+    "home",
+    null,
+    null,
+    null
+  ],
+  "joyconPair": [
+    
+  ]
+}

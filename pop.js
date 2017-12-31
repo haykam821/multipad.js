@@ -2,7 +2,6 @@ function idtoclass(index, id){
   switch (id) {
     case 'Joy-Con (L) (Vendor: 057e Product: 2006)':
       document.getElementsByTagName('div')[index].className = 'left';
-      //alert('left',index)
       break;
     case 'Joy-Con (R) (Vendor: 057e Product: 2007)':
       document.getElementsByTagName('div')[index].className = 'right';

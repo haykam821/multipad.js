@@ -8,7 +8,8 @@
   "description": "A manager for multiplayer controllers using the multipad.js system.",
   "permissions": [
       "*://*/*",
-      "background"
+      "background",
+      "tabs"
   ],
   "content_scripts": [{
       "run_at" :"document_end",
